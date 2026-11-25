@@ -4,6 +4,14 @@ WordPress plugin, který při zobrazení stránky nahrazuje mezery za krátkými
 
 Autor: Softlabs, weby@softlabs.cz, https://softlabs.cz
 
+## Stažení
+
+Nejnovější verze: https://github.com/lucie-soft/softlabs-ceska-typografie/releases/latest
+
+Přímý odkaz na ZIP (vždy nejnovější verze): https://github.com/lucie-soft/softlabs-ceska-typografie/releases/latest/download/softlabs-ceska-typografie.zip
+
+Instalace: Pluginy → Přidat nový → Nahrát plugin → vybrat ZIP → Aktivovat. Aktualizace stejně, WordPress nabídne „Nahradit stávající“.
+
 ## Co plugin dělá
 
 • Jednopísmenná slova (a, i, k, o, s, u, v, z…)
@@ -43,10 +51,14 @@ Po nahrání nové verze smažte cache (FlyingPress, Cloudflare).
 
 1. Zvednout `Version:` v hlavičce `softlabs-ceska-typografie.php`
 2. Zapsat změny do `CHANGELOG.md`
-3. Commit, tag `vX.Y.Z`, ZIP do Releases
+3. Commit, tag `vX.Y.Z`, ZIP do Releases. ZIP pojmenovat vždy `softlabs-ceska-typografie.zip` (bez čísla verze), jinak přestane fungovat přímý odkaz ke stažení.
 
 ## Známá omezení
 
 • Když je poslední slovo odstavce v inline tagu (`<strong>`, `<a>`…), nespojí se s předchozím slovem mimo tag.
 • Písmeno hned za HTML entitou se bere jako samostatné slovo (rock&#8217;n roll → za „n“ přibude `&nbsp;`). Neškodí.
 • Aktualizace se zatím nahrávají na každý web ručně.
+
+## Licence
+
+GPL-2.0-or-later, Copyright (C) 2026 SOFTLABS CZECH s.r.o. Plné znění v souboru `LICENSE`.

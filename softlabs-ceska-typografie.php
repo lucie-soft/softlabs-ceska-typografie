@@ -3,11 +3,25 @@
  * Plugin Name: Softlabs – Česká typografie
  * Plugin URI: https://softlabs.cz
  * Description: Hlídá českou typografii: jednopísmenná slova, krátké předložky a spojky, čísla s jednotkami a tituly nezůstanou na konci řádku, pomlčka nezačne řádek a krátké slovo nezůstane samo na konci odstavce.
- * Version: 1.4.1
+ * Version: 1.4.2
  * Author: Softlabs
  * Author URI: https://softlabs.cz
  * Requires PHP: 7.4
  * Text Domain: softlabs-ceska-typografie
+ * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Copyright (C) 2026 SOFTLABS CZECH s.r.o.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -487,8 +501,8 @@ final class Softlabs_Ceska_Typografie {
 			<h2>Kde plugin nezasahuje</h2>
 			<p>Administrace, Divi Builder, kód stránky (skripty, styly), formulářová pole (textarea), RSS, REST API a prvky s výjimkovou třídou.</p>
 
-			<h2>Kontakt</h2>
-			<p>Plugin pro váš web připravil tým Softlabs. Pokud se něco nezobrazuje správně nebo potřebujete poradit, napište nám.</p>
+			<h2>Autor a kontakt</h2>
+			<p>Plugin vytvořil tým Softlabs a je zdarma ke stažení pod licencí GPL. Pokud potřebujete poradit s nastavením nebo chcete na webu upravit něco dalšího, napište nám.</p>
 			<p>Tým Softlabs<br>
 			<a href="mailto:weby@softlabs.cz">weby@softlabs.cz</a><br>
 			<a href="https://softlabs.cz" target="_blank" rel="noopener">softlabs.cz</a></p>

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.2 – 2026-11-25
+
+• Licence GPL-2.0-or-later (soubor `LICENSE`, hlavička pluginu, copyright SOFTLABS CZECH s.r.o.).
+• Záložka Návod: sekce „Autor a kontakt“, text vhodný i pro weby, které spravují jiní webaři.
+• ZIP v Releases se jmenuje `softlabs-ceska-typografie.zip` bez čísla verze, přímý odkaz ke stažení se tak nemění.
+• Kód úpravy textu beze změny oproti 1.4.1.
+
 ## 1.4.1 – 2026-11-18
 
 • Oprava: plugin na webech s FlyingPress nic neupravoval. Kritické CSS obsahuje zápisy jako `@media (width<=980px)`, plugin znak `<` považoval za začátek značky a zbytek stránky bral jako CSS. Bloky `<script>` a `<style>` se teď berou vcelku (hledání přes `stripos`, bez limitu PCRE i u velkých inline bloků).
